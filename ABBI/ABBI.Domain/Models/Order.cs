@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ABBI.Domain.Seeds;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ABBI.Domain.Models
 {
-    class Order
+    class Order : BaseAuditModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
