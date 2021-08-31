@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.API\\ABBI.API.csproj": {}
+    "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.API\\ABBI.API.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.API\\ABBI.API.csproj": {
+    "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.API\\ABBI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.API\\ABBI.API.csproj",
+        "projectUniqueName": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.API\\ABBI.API.csproj",
         "projectName": "ABBI.API",
-        "projectPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.API\\ABBI.API.csproj",
+        "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.API\\ABBI.API.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.API\\obj\\",
+        "outputPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

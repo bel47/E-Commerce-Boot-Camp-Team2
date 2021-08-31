@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qvULQ0zExkZRknAujPN66OvxBEEVa8NIwUJfMW5FLr2ghg6jiBrS5JzBr374LRxTuMEMTtnUUvjqd8fa6+cMTg==",
+  "dgSpecHash": "2VpBlTK5auV/+mHbvwJP4Pvr5tENQ87BkXtMHS29oU/k+kLh1klhvln+k23rfhB7nvNNbngvv1llFbucZ5BNeg==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.API\\ABBI.API.csproj",
+  "projectFilePath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.API\\ABBI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.2.3\\azure.identity.1.2.3.nupkg.sha512",

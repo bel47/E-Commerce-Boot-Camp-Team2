@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Application\\ABBI.Application.csproj": {}
+    "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Application\\ABBI.Application.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Application\\ABBI.Application.csproj": {
+    "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Application\\ABBI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Application\\ABBI.Application.csproj",
+        "projectUniqueName": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Application\\ABBI.Application.csproj",
         "projectName": "ABBI.Application",
-        "projectPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Application\\ABBI.Application.csproj",
+        "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Application\\ABBI.Application.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Application\\obj\\",
+        "outputPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
-                "projectPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj"
+              "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
+                "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj"
               }
             }
           }
@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,72 +68,14 @@
         }
       }
     },
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
+    "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
+        "projectUniqueName": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
         "projectName": "ABBI.Domain",
-        "projectPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
+        "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Infrastructure\\ABBI.Infrastructure.csproj": {
-                "projectPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Infrastructure\\ABBI.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Infrastructure\\ABBI.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Infrastructure\\ABBI.Infrastructure.csproj",
-        "projectName": "ABBI.Infrastructure",
-        "projectPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Infrastructure\\ABBI.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Infrastructure\\obj\\",
+        "outputPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,12 +103,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
