@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RestAPICompleted.Models
+namespace ABBI.Models
 {
     [Table("Products", Schema = "dbo")]
     public class ProductEntity

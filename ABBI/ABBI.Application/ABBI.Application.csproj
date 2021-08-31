@@ -6,10 +6,11 @@
 
   <ItemGroup>
     <Folder Include="Features\" />
-    <Folder Include="Exceptions\" />
     <Folder Include="Behaviours\" />
-    <Folder Include="Persistence\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABBI.Domain\ABBI.Domain.csproj" />
   </ItemGroup>
 
 </Project>
