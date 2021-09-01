@@ -25,3 +25,6 @@ D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.Infrastructure\obj\De
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.Infrastructure\bin\Debug\net5.0\ABBI.Domain.dll
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.Infrastructure\bin\Debug\net5.0\ABBI.Domain.pdb
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.Infrastructure\obj\Debug\net5.0\ABBI.Infrastructure.csproj.CopyComplete
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.Infrastructure\bin\Debug\net5.0\ABBI.Infrastructure.runtimeconfig.json
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.Infrastructure\bin\Debug\net5.0\ABBI.Infrastructure.runtimeconfig.dev.json
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.Infrastructure\obj\Debug\net5.0\ABBI.Infrastructure.genruntimeconfig.cache
