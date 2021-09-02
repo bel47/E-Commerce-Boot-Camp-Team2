@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ABBI.Domain.Interfaces;
 using ABBI.Domain.Models;
+using ABBI.Domain.Interfaces.Repository;
 
 namespace ABBI.Infrastructure.Repository
 {

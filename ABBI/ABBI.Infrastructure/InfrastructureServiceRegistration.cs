@@ -5,6 +5,8 @@ using ABBI.Domain.Seeds;
 using ABBI.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using ABBI.Domain.Interfaces.Repository;
+using ABBI.Infrastructure.Repositories;
 
 namespace ABBI.Infrastructure
 {
@@ -17,6 +19,7 @@ namespace ABBI.Infrastructure
 
             services.AddScoped(typeof(IAsyncRepository<>), typeof(AsyncRepository<>));
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
             return services;
         }
     }

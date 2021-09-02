@@ -81,7 +81,6 @@ D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\ABBI.API.AssemblyInfoInputs.cache
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\ABBI.API.AssemblyInfo.cs
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\ABBI.API.csproj.CoreCompileInputs.cache
-D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\ABBI.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\ABBI.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\staticwebassets\ABBI.API.StaticWebAssets.Manifest.cache
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\staticwebassets\ABBI.API.StaticWebAssets.xml
@@ -122,3 +121,4 @@ D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\bin\Debug\net5.0\
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\bin\Debug\net5.0\ABBI.Application.dll
 D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\bin\Debug\net5.0\ABBI.Application.pdb
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\ABBI.API\obj\Debug\net5.0\ABBI.API.MvcApplicationPartsAssemblyInfo.cs

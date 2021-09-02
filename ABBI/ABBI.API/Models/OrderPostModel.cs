@@ -1,4 +1,4 @@
-﻿using ABBI.Domain.Models;
+﻿using ABBI.Domain.Entities;
 using System.Collections.Generic;
 
 namespace ABBI.API.Models
@@ -11,7 +11,7 @@ namespace ABBI.API.Models
 
         public override T MapToEntity<T>()
         {
-            Order order = new Order();
+            OrderEntity order = new OrderEntity();
             order.UserName = UserName;
             order.TotalPrice = TotalPrice;
             return order as T;

@@ -3,7 +3,7 @@ using ABBI.Domain.Seeds;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ABBI.Domain.Interfaces
+namespace ABBI.Domain.Interfaces.Repository
 {
     public interface IOrderRepository : IAsyncRepository<Order>
     {

@@ -2668,8 +2668,8 @@
     },
     "ABBI.Application/1.0.0": {
       "type": "project",
-      "path": "../ABBI.Application/ABBI.Application.csproj",
-      "msbuildProject": "../ABBI.Application/ABBI.Application.csproj"
+      "path": "../Order.Application/ABBI.Application.csproj",
+      "msbuildProject": "../Order.Application/ABBI.Application.csproj"
     },
     "ABBI.Domain/1.0.0": {
       "type": "project",
@@ -2722,14 +2722,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Application\\ABBI.Application.csproj": {
-              "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Application\\ABBI.Application.csproj"
-            },
             "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
               "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj"
             },
             "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Infrastructure\\ABBI.Infrastructure.csproj": {
               "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Infrastructure\\ABBI.Infrastructure.csproj"
+            },
+            "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\ABBI.Application.csproj": {
+              "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\ABBI.Application.csproj"
             }
           }
         }

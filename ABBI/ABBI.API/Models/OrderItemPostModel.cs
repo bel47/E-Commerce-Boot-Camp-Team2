@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace ABBI.API.Models
+﻿namespace ABBI.API.Models
 {
     public class OrderItemPostModel
     {

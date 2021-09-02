@@ -1,0 +1,15 @@
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\bin\Debug\net5.0\Order.Application.deps.json
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\bin\Debug\net5.0\Order.Application.dll
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\bin\Debug\net5.0\ref\Order.Application.dll
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\bin\Debug\net5.0\Order.Application.pdb
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\bin\Debug\net5.0\Order.Domain.dll
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\bin\Debug\net5.0\Order.Domain.pdb
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.csproj.AssemblyReference.cache
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.AssemblyInfoInputs.cache
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.AssemblyInfo.cs
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.csproj.CoreCompileInputs.cache
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.csproj.CopyComplete
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.dll
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\ref\Order.Application.dll
+D:\Repos\Belay's Team\CA-Template\TrainingAPI\Services\Order\Order.Application\obj\Debug\net5.0\Order.Application.pdb

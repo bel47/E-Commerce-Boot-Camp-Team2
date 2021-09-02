@@ -1,11 +1,11 @@
-﻿using ABBI.Domain.Seeds;
+﻿using ABBI.Domain.Models;
+using ABBI.Domain.Seeds;
 using System;
 
-namespace ABBI.Domain.Models
+namespace ABBI.Domain.Entities
 {
     public class OrderItem : BaseEntity<OrderItemModel>
     {
-
         public OrderItem(OrderItemModel model) : base(model)
         {
             Qty = model.Qty;

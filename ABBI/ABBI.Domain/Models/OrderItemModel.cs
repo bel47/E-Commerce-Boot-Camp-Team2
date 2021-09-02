@@ -2,7 +2,7 @@
 
 namespace ABBI.Domain.Models
 {
-    public class OrderItemModel: BaseAuditModel
+    public class OrderItemModel : BaseAuditModel
     {
         public decimal Qty { get; protected set; }
         public string Name { get; protected set; }

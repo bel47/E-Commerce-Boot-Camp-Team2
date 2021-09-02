@@ -22,15 +22,15 @@ namespace ABBI.API.Controllers
             _orderService = orderService;
         }
         [HttpGet(Name = "GetAllOrders")]
-        [ProducesResponseType(typeof(IEnumerable<Order>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IEnumerable<Order>>> GetAllOrders()
+        [ProducesResponseType(typeof(IEnumerable<OrderEntity>), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<IEnumerable<OrderEntity>>> GetAllOrders()
         {
             var orders = await _orderService.GetAllOrders();
             return Ok(orders);
         }
         [HttpGet("{userName}", Name = "GetOrder")]
-        [ProducesResponseType(typeof(IEnumerable<Order>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IEnumerable<Order>>> GetOrdersByUserName(string userName)
+        [ProducesResponseType(typeof(IEnumerable<OrderEntity>), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<IEnumerable<OrderEntity>>> GetOrdersByUserName(string userName)
         {
             var orders = await _orderService.GetByUser(userName);
             return Ok(orders);
