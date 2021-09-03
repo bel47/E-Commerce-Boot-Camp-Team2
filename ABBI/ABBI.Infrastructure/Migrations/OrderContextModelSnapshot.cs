@@ -162,6 +162,7 @@ namespace ABBI.Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
@@ -174,31 +175,28 @@ namespace ABBI.Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("PictureUrl")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("ProductBrandId")
-                        .HasColumnType("int");
-
-                    b.Property<Guid?>("ProductBrandId1")
+                    b.Property<Guid?>("ProductBrandId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("ProductTypeId")
-                        .HasColumnType("int");
-
-                    b.Property<Guid?>("ProductTypeId1")
+                    b.Property<Guid?>("ProductTypeId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductBrandId1");
+                    b.HasIndex("ProductBrandId");
 
-                    b.HasIndex("ProductTypeId1");
+                    b.HasIndex("ProductTypeId");
 
                     b.ToTable("Products");
                 });
@@ -214,11 +212,11 @@ namespace ABBI.Infrastructure.Migrations
                 {
                     b.HasOne("ABBI.Domain.Entities.ProductBrand", "ProductBrand")
                         .WithMany()
-                        .HasForeignKey("ProductBrandId1");
+                        .HasForeignKey("ProductBrandId");
 
                     b.HasOne("ABBI.Domain.Entities.ProductType", "ProductType")
                         .WithMany()
-                        .HasForeignKey("ProductTypeId1");
+                        .HasForeignKey("ProductTypeId");
 
                     b.Navigation("ProductBrand");
 

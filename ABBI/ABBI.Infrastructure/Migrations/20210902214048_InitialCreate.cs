@@ -90,14 +90,12 @@ namespace ABBI.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    PictureUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ProductTypeId1 = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
-                    ProductTypeId = table.Column<int>(type: "int", nullable: false),
-                    ProductBrandId1 = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
-                    ProductBrandId = table.Column<int>(type: "int", nullable: false),
+                    PictureUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ProductTypeId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
+                    ProductBrandId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CreatedByUser = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
@@ -108,14 +106,14 @@ namespace ABBI.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Products_ProductBrands_ProductBrandId1",
-                        column: x => x.ProductBrandId1,
+                        name: "FK_Products_ProductBrands_ProductBrandId",
+                        column: x => x.ProductBrandId,
                         principalTable: "ProductBrands",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Products_ProductTypes_ProductTypeId1",
-                        column: x => x.ProductTypeId1,
+                        name: "FK_Products_ProductTypes_ProductTypeId",
+                        column: x => x.ProductTypeId,
                         principalTable: "ProductTypes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -127,14 +125,14 @@ namespace ABBI.Infrastructure.Migrations
                 column: "OrderId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Products_ProductBrandId1",
+                name: "IX_Products_ProductBrandId",
                 table: "Products",
-                column: "ProductBrandId1");
+                column: "ProductBrandId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Products_ProductTypeId1",
+                name: "IX_Products_ProductTypeId",
                 table: "Products",
-                column: "ProductTypeId1");
+                column: "ProductTypeId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

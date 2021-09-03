@@ -2,7 +2,6 @@
 using ABBI.Infrastructure.Context;
 using ABBI.Infrastructure.Repository;
 using ABBI.Domain.Seeds;
-using ABBI.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using ABBI.Domain.Interfaces.Repository;
