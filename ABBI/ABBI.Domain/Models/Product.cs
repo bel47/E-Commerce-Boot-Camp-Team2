@@ -1,17 +1,24 @@
-﻿using System;
+﻿using ABBI.Domain.Entities;
+using ABBI.Domain.Seeds;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace RestAPICompleted.Models
+namespace ABBI.Domain.Models
 {
-    public class Product
+    public class Product : BaseAuditModel
     {
-        public int ProductId { get; set; }
-        public string ProductName { get; set; }
-        public string SupplierId { get; set; }
-        public string CategoryId { get; set; }
-        public float Quantity { get; set; }
-        public float UnitPrice { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+        public string PictureUrl { get; set; }
+        public ProductType ProductType { get; set; }
+        public ProductBrand ProductBrand { get; set; }
+        public Product()
+        {
+
+        }
     }
 }

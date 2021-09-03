@@ -1,0 +1,15 @@
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.csproj.AssemblyReference.cache
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.AssemblyInfoInputs.cache
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.AssemblyInfo.cs
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.csproj.CoreCompileInputs.cache
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\bin\Debug\net5.0\ABBI.Application.deps.json
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\bin\Debug\net5.0\ABBI.Application.dll
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\bin\Debug\net5.0\ref\ABBI.Application.dll
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\bin\Debug\net5.0\ABBI.Application.pdb
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\bin\Debug\net5.0\ABBI.Domain.dll
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\bin\Debug\net5.0\ABBI.Domain.pdb
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.csproj.CopyComplete
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.dll
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ref\ABBI.Application.dll
+D:\Repos\Belay's Team\E-Commerce-Boot-Camp-Team2\ABBI\Order.Application\obj\Debug\net5.0\ABBI.Application.pdb

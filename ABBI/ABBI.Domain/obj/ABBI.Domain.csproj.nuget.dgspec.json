@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {}
+    "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
+    "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
+        "projectUniqueName": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
         "projectName": "ABBI.Domain",
-        "projectPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
+        "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\Belay's Team\\ABBI-Ecommerce\\ABBI\\ABBI.Domain\\obj\\",
+        "outputPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

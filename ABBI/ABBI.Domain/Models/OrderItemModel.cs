@@ -1,13 +1,8 @@
-﻿using Order.Domain.Seed;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ABBI.Domain.Seeds;
 
-namespace Order.Domain.Models
+namespace ABBI.Domain.Models
 {
-    public class OrderItemModel: BaseAuditModel
+    public class OrderItemModel : BaseAuditModel
     {
         public decimal Qty { get; protected set; }
         public string Name { get; protected set; }
@@ -17,7 +12,6 @@ namespace Order.Domain.Models
             Price = price;
             Qty = qty;
             Name = name;
-
         }
     }
 }
