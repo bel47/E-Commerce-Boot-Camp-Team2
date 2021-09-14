@@ -62,11 +62,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\ABBI.Application.csproj",
+      "projectUniqueName": "D:\\Repos\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\ABBI.Application.csproj",
       "projectName": "ABBI.Application",
-      "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\ABBI.Application.csproj",
+      "projectPath": "D:\\Repos\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\ABBI.Application.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\obj\\",
+      "outputPath": "D:\\Repos\\E-Commerce-Boot-Camp-Team2\\ABBI\\Order.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
-              "projectPath": "D:\\Repos\\Belay's Team\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj"
+            "D:\\Repos\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj": {
+              "projectPath": "D:\\Repos\\E-Commerce-Boot-Camp-Team2\\ABBI\\ABBI.Domain\\ABBI.Domain.csproj"
             }
           }
         }

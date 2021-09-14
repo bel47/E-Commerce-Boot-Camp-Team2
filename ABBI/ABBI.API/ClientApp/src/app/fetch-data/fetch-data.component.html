@@ -1,0 +1,90 @@
+<h1 id="tableLabel">Product Catalog</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!forecasts"><em>Loading...</em></p>
+
+<!--<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Temp. (C)</th>
+      <th>Temp. (F)</th>
+      <th>Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let forecast of forecasts">
+      <td>{{ forecast.date }}</td>
+      <td>{{ forecast.temperatureC }}</td>
+      <td>{{ forecast.temperatureF }}</td>
+      <td>{{ forecast.summary }}</td>
+    </tr>
+  </tbody>
+</table>-->
+<section id="products" class="section promo-area products-area overflow-hidden ptb_100 pt-lg-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 res-margin">
+        <div class="image-box product-card overflow-hidden">
+          <img class="d-block w-100" src="assets/img/product-thumb/product-thumb-01.png" alt="">
+          <div class="card-body p-4">
+            <ul>
+              <li>High-Resolution Audio compatible</li>
+              <li>Smart listening experience by Adaptive Sound Control</li>
+              <li>Ergonomic, enfolding design earpads</li>
+            </ul>
+          </div>
+          <!-- Product Order -->
+          <div class="product-order">
+            <!-- Order Button -->
+            <div class="order-btn d-flex flex-wrap justify-content-center">
+              <a class="btn prolend-primary style-two m-2" href="#">View Details</a>
+              <a class="btn prolend-primary m-2" href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 res-margin">
+        <div class="image-box product-card overflow-hidden">
+          <img class="d-block w-100" src="assets/img/product-thumb/product-thumb-02.png" alt="">
+          <div class="card-body p-4">
+            <ul>
+              <li>High-Resolution Audio compatible</li>
+              <li>Smart listening experience by Adaptive Sound Control</li>
+              <li>Ergonomic, enfolding design earpads</li>
+            </ul>
+          </div>
+          <!-- Product Order -->
+          <div class="product-order">
+            <!-- Order Button -->
+            <div class="order-btn d-flex flex-wrap justify-content-center">
+              <a class="btn prolend-primary style-two m-2" href="#">View Details</a>
+              <a class="btn prolend-primary m-2" href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="image-box product-card overflow-hidden">
+          <img class="d-block w-100" src="assets/img/product-thumb/product-thumb-03.png" alt="">
+          <div class="card-body p-4">
+            <ul>
+              <li>High-Resolution Audio compatible</li>
+              <li>Smart listening experience by Adaptive Sound Control</li>
+              <li>Ergonomic, enfolding design earpads</li>
+            </ul>
+          </div>
+          <!-- Product Order -->
+          <div class="product-order">
+            <!-- Order Button -->
+            <div class="order-btn d-flex flex-wrap justify-content-center">
+              <a class="btn prolend-primary style-two m-2" href="#">View Details</a>
+              <a class="btn prolend-primary m-2" href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

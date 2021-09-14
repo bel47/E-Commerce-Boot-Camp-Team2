@@ -26,7 +26,6 @@ namespace ABBI.Domain.Entities
             ProductBrand = product.ProductBrand;
             ProductType = product.ProductType;
         }
-
         public override Product MapToModel()
         {
             Product product = new Product();
@@ -37,7 +36,6 @@ namespace ABBI.Domain.Entities
             product.ProductType = ProductType;
             return product;
         }
-
         public override Product MapToModel(Product t)
         {
             throw new NotImplementedException();

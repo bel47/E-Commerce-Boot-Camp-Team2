@@ -42,9 +42,9 @@ namespace ABBI.Application.Features
 
         public async Task<List<OrderEntity>> GetByUser(string user)
         {
-            var data = _orderRepository.GetAsync(x => x.UserName == user);
-            List<OrderEntity> orders = (await data).Select(x=> new OrderEntity(x)).ToList();
-            return orders;
+            //var data = _orderRepository.GetAsync(x => x.UserName == user);
+           // List<OrderEntity> orders = (await data).Select(x=> new OrderEntity(x)).ToList();
+            return null;
         }
 
         public async Task<OrderEntity> GetOrder(Guid id)

@@ -24,8 +24,8 @@ namespace ABBI.Infrastructure.Repository
 
         public async Task<List<Order>> GetByUser(string user)
         {
-            var orderList = (await GetAsync(x => x.UserName == user)).ToList();
-            return orderList;
+          //  var orderList = (await GetAsync(x => x.UserName == user)).ToList();
+            return null;
         }
     }
 }
