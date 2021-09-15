@@ -10,6 +10,7 @@ namespace ABBI.Application
         {
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IBasketService, BasketService>();
 
             return services;
         }
