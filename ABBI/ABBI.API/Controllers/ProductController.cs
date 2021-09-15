@@ -27,7 +27,7 @@ namespace ABBI.API.Controllers
             var orders = await _productService.GetAllProducts();
             return Ok(orders);
         }
-        [HttpGet("{userName}", Name = "GetProduct")]
+        [HttpGet("{id}", Name = "GetProduct")]
         [ProducesResponseType(typeof(IEnumerable<OrderEntity>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<IEnumerable<OrderEntity>>> GetOrdersByUserName(string userName)
         {
