@@ -23,7 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ABBI.Domain\ABBI.Domain.csproj" />
     <ProjectReference Include="..\ABBI.Infrastructure\ABBI.Infrastructure.csproj" />
-    <ProjectReference Include="..\Order.Application\ABBI.Application.csproj" />
+    <ProjectReference Include="..\ABBI.Application\ABBI.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
