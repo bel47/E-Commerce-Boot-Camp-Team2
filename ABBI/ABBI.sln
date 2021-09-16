@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABBI.Infrastructure", "ABBI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABBI.API", "ABBI.API\ABBI.API.csproj", "{552B14C0-EF96-43E0-97DC-E9E2727D9A08}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABBI.Application", "ABBI.Application\ABBI.Application.csproj", "{4AAB9F05-E0C9-4E39-B8DB-34C76EF31DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABBI.Application", "Order.Application\ABBI.Application.csproj", "{4AAB9F05-E0C9-4E39-B8DB-34C76EF31DB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
