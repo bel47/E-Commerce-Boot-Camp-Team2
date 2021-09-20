@@ -12,18 +12,23 @@ namespace ABBI.API.Models
         public string Description { get; set; }
         public decimal Price { get; set; }
         public string PictureUrl { get; set; }
-        public ProductBrand ProductBrand { get; set; }
-        public ProductType ProductType { get; set; }
+        public string ProductBrand { get; set; }
+        public string ProductType { get; set; }
+
+        /*
         public override T MapToEntity<T>()
         {
             ProductEntity product = new ProductEntity();
+
             product.Name = Name;
             product.Description = Description;
             product.Price = Price;
             product.PictureUrl = PictureUrl;
             product.ProductBrand = ProductBrand;
             product.ProductType = ProductType;
+
             return product as T;
         }
+        //*/
     }
 }

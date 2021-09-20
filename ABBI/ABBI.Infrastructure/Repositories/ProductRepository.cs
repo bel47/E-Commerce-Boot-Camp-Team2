@@ -23,17 +23,9 @@ namespace ABBI.Infrastructure.Repositories
             throw new NotImplementedException();
         }
         public override async Task<IReadOnlyList<Product>> GetAllAsync()
-        {
-/*            IQueryable<Product> productString = _orderContext.Products;
-
-
-                productString = productString.ToList().Select(i => new Product
-                {
-                    Name = i.Name
-                }).AsQueryable();*/
-            
-            var product = _orderContext.Products.Include(pt => pt.ProductType).Include(pb => pb.ProductBrand).ToListAsync();
-            return await product;
+        {            
+            var product = await _orderContext.Products.Include(p => p.ProductBrand).Include(p => p.ProductType).ToListAsync();
+            return product;
         }
 
     }

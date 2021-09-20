@@ -11,7 +11,9 @@ namespace ABBI.Domain.Entities
         public decimal Price { get; set; }
         public string PictureUrl { get; set; }
         public ProductType ProductType { get; set; }
+        public Guid ProductTypeId { get; set; }
         public ProductBrand ProductBrand { get; set; }
+        public Guid ProdictBrandId   { get; set; }
         public ProductEntity()
         {
             ProductBrand = new ProductBrand();
@@ -29,16 +31,26 @@ namespace ABBI.Domain.Entities
         public override Product MapToModel()
         {
             Product product = new Product();
-            product.Description = Description;
-            product.Name = Name;
-            product.PictureUrl = PictureUrl;
-            product.ProductBrand = ProductBrand;
-            product.ProductType = ProductType;
+
+            product.Description = this.Description;
+            product.Name = this.Name;
+            product.PictureUrl = this.PictureUrl;
+            product.ProductBrand = this.ProductBrand;
+            product.ProductType = this.ProductType;
+
             return product;
         }
         public override Product MapToModel(Product t)
         {
-            throw new NotImplementedException();
+            Product product = t;
+
+            product.Description = this.Description;
+            product.Name = this.Name;
+            product.PictureUrl = this.PictureUrl;
+            product.ProductBrand = this.ProductBrand;
+            product.ProductType = this.ProductType;
+
+            return product;
         }
     }
 }

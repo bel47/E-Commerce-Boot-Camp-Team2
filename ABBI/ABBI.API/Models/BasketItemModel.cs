@@ -13,9 +13,5 @@ namespace ABBI.API.Models
         public string PictureUrl { get; set; }
         public string Brand { get; set; }
         public string Type { get; set; }
-        public override T MapToEntity<T>()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

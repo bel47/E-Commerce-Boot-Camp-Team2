@@ -25,6 +25,7 @@ namespace ABBI.Infrastructure.Context
                     await orderContext.SaveChangesAsync();
                     logger.LogInformation("Seed database associated with context {DbContextName}", typeof(OrderContext).Name);
                 }
+
                 if (!orderContext.ProductBrands.Any())
                 {
                     var brandsData = File.ReadAllText(@"../ABBI.Infrastructure/Contexts/SeedData/brands.json");
@@ -50,21 +51,6 @@ namespace ABBI.Infrastructure.Context
 
                     await orderContext.SaveChangesAsync();
                 }
-
-                if (!orderContext.Products.Any())
-                {
-                    var productsData = File.ReadAllText( @"../ABBI.Infrastructure/Contexts/SeedData/products.json");
-                    var products = JsonSerializer.Deserialize<List<Product>>(productsData);
-
-                    foreach (var item in products)
-                    {
-                        orderContext.Products.Add(item);
-                    }
-
-                    await orderContext.SaveChangesAsync();
-                }
-
-
             }
             catch (Exception ex)
             {

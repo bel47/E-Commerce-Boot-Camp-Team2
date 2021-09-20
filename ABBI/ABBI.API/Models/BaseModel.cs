@@ -10,6 +10,5 @@ namespace ABBI.API.Models
         public Guid? Id { get; set; }
         public bool? IsActive { get; set; }
         public DateTime? CreatedDate { get; set; }
-        public abstract T MapToEntity<T>() where T : class;
     }
 }
