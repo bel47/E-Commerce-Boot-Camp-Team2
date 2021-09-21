@@ -32,8 +32,10 @@ namespace ABBI.Domain.Entities
         {
             Product product = new Product();
 
+            product.IsActive = this.IsActive;
             product.Description = this.Description;
             product.Name = this.Name;
+            product.Price = this.Price;
             product.PictureUrl = this.PictureUrl;
             product.ProductBrand = this.ProductBrand;
             product.ProductType = this.ProductType;
@@ -44,8 +46,10 @@ namespace ABBI.Domain.Entities
         {
             Product product = t;
 
+            product.IsActive = this.IsActive;
             product.Description = this.Description;
             product.Name = this.Name;
+            product.Price = this.Price;
             product.PictureUrl = this.PictureUrl;
             product.ProductBrand = this.ProductBrand;
             product.ProductType = this.ProductType;

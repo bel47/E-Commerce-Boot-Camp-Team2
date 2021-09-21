@@ -5,7 +5,7 @@ namespace ABBI.API.Mapping
 {
     public class ProductMapping
     {
-        public static ProductPostModel ToDto(ProductEntity productEntity)
+        public static ProductPostModel MapToDto(ProductEntity productEntity)
         {
             var productDto = new ProductPostModel();
 
@@ -23,12 +23,14 @@ namespace ABBI.API.Mapping
 
         }
 
-        public static ProductEntity ToEntity(ProductPostModel productDto)
+        public static ProductEntity MapToEntity(ProductPostModel productDto)
         {
             var productEntity = new ProductEntity();
 
             productEntity.Name = productDto.Name;
+            productEntity.IsActive = productDto.IsActive ?? false;
             productEntity.Description = productDto.Description;
+            productEntity.Price = productDto.Price;
             productEntity.PictureUrl = productDto.PictureUrl;
             productEntity.ProductBrand.Name = productDto.ProductBrand;
             productEntity.ProductType.Name = productDto.ProductType;

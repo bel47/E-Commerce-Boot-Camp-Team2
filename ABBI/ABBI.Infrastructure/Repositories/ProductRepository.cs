@@ -22,9 +22,17 @@ namespace ABBI.Infrastructure.Repositories
         {
             throw new NotImplementedException();
         }
+
         public override async Task<IReadOnlyList<Product>> GetAllAsync()
         {            
             var product = await _orderContext.Products.Include(p => p.ProductBrand).Include(p => p.ProductType).ToListAsync();
+            return product;
+        }
+
+        public override async Task<Product> GetByIdAsync(Guid id) 
+        {
+            var product = await _orderContext.Products.Include(p => p.ProductBrand).Include(p => p.ProductType).FirstOrDefaultAsync(p => p.Id == id);
+
             return product;
         }
 

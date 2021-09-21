@@ -5,7 +5,7 @@ namespace ABBI.Domain.Seeds
     public abstract class BaseEntity<T> where T : BaseAuditModel
     {
         public Guid Id { get; protected set; }
-        public bool IsActive { get; protected set; }
+        public bool IsActive { get; set; }
         public DateTime CreatedDate { get; protected set; }
         public BaseEntity()
         {
